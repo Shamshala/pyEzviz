@@ -75,7 +75,7 @@ class DefenseModeType(Enum):
 class DeviceCatagories(Enum):
     """Supported device categories."""
 
-    COMMON_DEVICE_CATEGORY = "COMMON"
+    COMMON_DEVICE_CATEGORY = "IGateWay"
     CAMERA_DEVICE_CATEGORY = "IPC"
     BATTERY_CAMERA_DEVICE_CATEGORY = "BatteryCamera"
     DOORBELL_DEVICE_CATEGORY = "BDoorBell"
